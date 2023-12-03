@@ -12,18 +12,15 @@ const images = [
     alt: 'Phone on the table',
   },
   {
-    src:
-      '/img/4.jpg',
+    src: '/img/4.jpg',
     alt: 'Conference room',
   },
   {
-    src:
-      '/img/5.jpg',
+    src:'/img/5.jpg',
     alt: 'Studio room',
   },
   {
-    src:
-      '/img/6.jpg',
+    src: '/img/6.jpg',
     alt: 'Working place',
   },
 ];
