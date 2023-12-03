@@ -1,22 +1,22 @@
 const images = [
   {
-    src: '../img/1.jpg',
+    src: '/img/1.jpg',
     alt: 'Project planning',
   },
   {
-    src: './img/2.jpg',
+    src: '/img/2.jpg',
     alt: 'Light',
   },
   {
-    src: './img/3.jpg',
+    src: '/img/3.jpg',
     alt: 'Phone on the table',
   },
   {
-    src: './img/4.jpg',
+    src: '/img/4.jpg',
     alt: 'Conference room',
   },
   {
-    src:'./img/5.jpg',
+    src:'/img/5.jpg',
     alt: 'Studio room',
   },
   {
