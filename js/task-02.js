@@ -1,26 +1,26 @@
 const images = [
   {
-    src: '/img/pc.jpg',
+    src: '../img/pc.jpg',
     alt: 'Project planning',
   },
   {
-    src: '/img/lamp.jpg',
+    src: '../img/lamp.jpg',
     alt: 'Light',
   },
   {
-    src: '/img/phone.jpg',
+    src: '../img/phone.jpg',
     alt: 'Phone on the table',
   },
   {
-    src: '/img/room.jpg',
+    src: '../img/room.jpg',
     alt: 'Conference room',
   },
   {
-    src:'/img/hall.jpg',
+    src:'../img/hall.jpg',
     alt: 'Studio room',
   },
   {
-    src: '/img/work.jpg',
+    src: '../img/work.jpg',
     alt: 'Working place',
   },
 ];
