@@ -27,16 +27,15 @@ const images = [
 
 const galleryElement = document.querySelector('.gallery');
 
-        images.forEach(image => {
+const imagesList = document.createElement('ul');
+imagesList.className = 'gallery-list';
 
-            const listItem = document.createElement('li');
-            listItem.className = 'gallery-item';
+for (const image of images) {
+  const imgElement = document.createElement('img');
+  imgElement.src = image.src;
+  imgElement.alt = image.alt;
 
-            const imgElement = document.createElement('img');
-            imgElement.src = image.src;
-            imgElement.alt = image.alt;
+  imagesList.appendChild(imgElement);
+}
 
-            listItem.appendChild(imgElement);
-
-            galleryElement.appendChild(listItem);
-        });
+galleryElement.appendChild(imagesList);
